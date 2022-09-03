@@ -1,6 +1,8 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-
+PRODID:-//Manual//EN
+URL:webcal://raw.githubusercontent.com/1dimir/lfc-fixtures/master/2022-23.ics
+X-WR-CALNAME:Liverpool FC
 BEGIN:VTIMEZONE
 TZID:Europe/London
 BEGIN:DAYLIGHT
