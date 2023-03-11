@@ -1,11 +1,9 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Manual//EN
+PRODID:-//Liverpool FC//Fixtures//EN
 URL:webcal://raw.githubusercontent.com/1dimir/lfc-fixtures/master/2022-23.ics
 NAME:Liverpool FC
-X-WR-CALNAME:Liverpool FC
 DESCRIPTION:Liverpool FC fixtures
-X-WR-CALDESC:Liverpool FC fixtures
 BEGIN:VTIMEZONE
 TZID:Europe/London
 BEGIN:DAYLIGHT
@@ -31,6 +29,15 @@ TRANSP:TRANSPARENT
 SEQUENCE:0
 UID: lfc-fixutre-20220907
 SUMMARY:Napoli vs Liverpool
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20230311T123000
+DTEND;TZID=Europe/London:20230311T143000
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID: lfc-fixutre-20230311
+SUMMARY:Bournemouth (away)
 CLASS:PUBLIC
 END:VEVENT
 END:VCALENDAR
